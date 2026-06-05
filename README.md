@@ -16,13 +16,13 @@ The codebase evaluates whether observed orbital period modulations in close bina
 
 ## 📋 Core Features
 
-* **Multiple Applegate Formulations**: Includes implementations for the Thin-Shell approximation (Tian et al. 2009), the Constant-Density model, and the Two-Zone model (Völschow et al. 2016)[cite: 1].
-* **ADW Scaling Analysis**: Maps inertia tensor variations from 3D MHD simulations to non-axisymmetric quadrupole moments to approximate geometric timing shifts under tidal synchronization assumptions[cite: 1].
-* **Literature Benchmarking**: Contains pre-loaded parameters and verification checks for several well-studied systems[cite: 1]:
-  * **NN Ser**, **HW Vir**, and **QS Vir** (reproducing Völschow et al. 2016)[cite: 1]
-  * **NY Vir** (reproducing Esmer et al. 2023)[cite: 1]
-  * **DD CrB** (reproducing Baştürk et al. 2026)[cite: 1]
-* **Robust Conversions**: Built natively around `astropy.constants` and `astropy.units` to handle seamless, error-free CGS conversions[cite: 1].
+* **Multiple Applegate Formulations**: Includes implementations for the Thin-Shell approximation (Tian et al. 2009), the Constant-Density model, and the Two-Zone model (Völschow et al. 2016).
+* **ADW Scaling Analysis**: Maps inertia tensor variations from 3D MHD simulations to non-axisymmetric quadrupole moments to approximate geometric timing shifts under tidal synchronization assumptions.
+* **Literature Benchmarking**: Contains pre-loaded parameters and verification checks for several well-studied systems:
+  * **NN Ser**, **HW Vir**, and **QS Vir** (reproducing Völschow et al. 2016)
+  * **NY Vir** (reproducing Esmer et al. 2023)
+  * **DD CrB** (reproducing Baştürk et al. 2026)
+* **Robust Conversions**: Built natively around `astropy.constants` and `astropy.units` to handle seamless, error-free CGS conversions.
 
 ---
 
