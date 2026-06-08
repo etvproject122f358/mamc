@@ -1,3 +1,7 @@
+<p align="center">
+  <img src="mamc_logo.png" alt="MAMC Logo" width="220">
+</p>
+
 # MAMC: Magnetic Activity Mechanisms Calculator
 
 [![ReadTheDocs](https://img.shields.io/badge/docs-read__the__docs-blue.svg)](https://mamc.readthedocs.io) 
