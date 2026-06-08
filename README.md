@@ -36,3 +36,22 @@ The project is structured modularly to completely decouple the computational phy
 ├── mamc.py            # Computational Core: Contains physics classes and conversion logic.
 ├── target_params.py   # Target Catalog: Structured @dataclass containing system parameters.
 └── example_mamc.py    # Pipeline Runner: Main execution script generating separated diagnostic reports.
+```
+
+## 📝 Citations & Acknowledgments
+
+If you utilize this framework or its code configurations in an academic publication, please include the following citations:
+
+* **For using the code Applegate Mechanism & Lanza Mechanism calculations:**
+  Please cite the [DD CrB work from our group](https://ui.adsabs.harvard.edu/abs/2026MNRAS.547ag290B/abstract) if you use this code for the computation of energy requirements for the Applegate mechanism in the framework introduced by Völschow et al. (2016).
+
+* **For the Azimuthal Dynamo Wave (ADW) Mechanism:**
+  You can use the computations for the ADW mechanism at your own risk. Our paper on DW UMa is in preparation for the moment, some of the results of which are based on the computation with this mechanism. But please note that this part of the code is a work in progress!
+
+### Foundational Framework References
+* **Two-Zone Modeling:** [Völschow, M., Schleicher, D. R. G., Perdelwitz, V., & Banerjee, R. 2016, A&A, 587, A34](https://ui.adsabs.harvard.edu/abs/2016A%26A...587A..34V/abstract)
+* **Spin-Orbit Envelope Coupling:** [Lanza, A. F. 2020, MNRAS, 491, 1820](https://ui.adsabs.harvard.edu/abs/2020MNRAS.491.1820L/abstract)
+* **ADW Theory & Baseline Tensors:** [Navarrete, F. H., Käpylä, P. J., Schleicher, D. R. G., et al. 2026, arXiv:2604.27609](https://ui.adsabs.harvard.edu/abs/2026arXiv260427609N/abstract)
+
+---
+*Developed and maintained by Ozgur Basturk & Furkan Akar for the TUBITAK project 122F358.*
