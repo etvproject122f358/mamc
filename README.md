@@ -15,7 +15,7 @@ The software unifies several foundational and modern frameworks to determine if 
 MAMC isolates its diagnostics into three independent testing suites:
 
 ### 1. The Applegate Mechanism (`ApplegateMechanism`)
-Evaluates the energetic feasibility of variations in the active star's magnetic quadrupole moment ($\Delta Q$) based on the numerical benchmarks established by [**Applegate (1992)**](https://ui.adsabs.harvard.edu/abs/1992ApJ...385..621A/abstract) based on [**Völschow et al. (2016)**](https://ui.adsabs.harvard.edu/abs/2016A%26A...587A..34V/abstract) models. It calculates the required energy fraction ($\Delta E / E_{\text{sec}}$) across three separate shell geometries:
+Evaluates the energetic feasibility of variations in the active star's magnetic quadrupole moment ($\Delta Q$) based on the numerical benchmarks established by <a href="https://ui.adsabs.harvard.edu/abs/1992ApJ...385..621A/abstract">**Applegate (1992)**</a> based on <a href= "https://ui.adsabs.harvard.edu/abs/2016A%26A...587A..34V/abstract">**Völschow et al. (2016)**]</a> models. It calculates the required energy fraction ($\Delta E / E_{\text{sec}}$) across three separate shell geometries:
 * **Thin-Shell Approximation:** Following [Tian et al. (2009)](https://ui.adsabs.harvard.edu/abs/2009Ap%26SS.319..119T/abstract), testing energy constraints based on absolute period variations.
 * **Constant-Density Model:** A global structural approximation assuming a uniform density profile.
 * **Two-Zone Model:** A realistic treatment modeling an inner dense core and an outer fluid convective envelope exchanging angular momentum. It tracks the dimensionless structural Applegate parameter ($A$), where physical solutions strictly require $A \le 1.0$.
